@@ -1,0 +1,38 @@
+<form method="post">
+    <p>
+        <label>
+            Név: <input type="text" name="name" placeholder="pl. Iphone">
+        </label>
+    </p>
+    <p>
+        <label>
+            Típus: <input type="text" name="type" placeholder="pl. 13 Pro">
+        </label>
+    </p>
+    <p>
+        <label>
+            Szín: <input type="text" name="color" placeholder="pl. piros">
+        </label>
+    </p>
+    <p>
+        <label>
+            Ár: <input type="number" name="price" placeholder="pl. 12300">
+        </label>
+    </p>
+    <p>
+        <label>
+            Akkumulátor állapota: <input type="number" name="battery" placeholder="pl. 23%">
+        </label>
+    </p>
+    <p>
+        <label>
+            <select name="condition" id="">
+                <option value="new">Új</option>
+                <option value="mintCondition">Újszerű</option>
+                <option value="scratchy">Karcos</option>
+            </select>
+        </label>
+    </p>
+    <input type="submit" value="Küldés">
+</form>
+<script src="phoneValidate.js"></script>
